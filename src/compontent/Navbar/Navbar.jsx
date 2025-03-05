@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Link } from "react-router-dom";
-import postboxlogo from "../../assets/postboxlogo.jpeg";
+import postboxlogo from "../../assets/logo1.png";
 import "./navbar.css";
 
 const Navbar = () => {

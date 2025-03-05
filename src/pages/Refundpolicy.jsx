@@ -1,9 +1,9 @@
-import React from "react";
+
 import "./termCondition.css";
-import pandp from "../../assets/pandp.png";
-import Footer2 from "../../compontent/Footer/Footer2";
-import Navbar from "../../compontent/Navbar/Navbar";
-import Banner3 from "../../compontent/Banner/Banner";
+
+import Footer2 from "../compontent/Footer/Footer2";
+import Navbar from "../compontent/Navbar/Navbar";
+import Banner3 from "../compontent/Banner/Banner";
 const Refundpolicy = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const Refundpolicy = () => {
       <Banner3 />
       <div className="policy">
         <div className="policy-data">
-          <p>Last updated: October 09, 2024</p>
+          <p>Last Updated: 09 January 2025</p>
          
          
           <p>
@@ -87,10 +87,10 @@ const Refundpolicy = () => {
           </p>
           <ul>
             <li>
-              <p>By email: abc@gmail.com</p>
+              <p>By email: thefrekappllc.@gmail.com</p>
             </li>
             <li>
-              <p>By phone number: 1234567890</p>
+              <p>By visiting this page on our web www.thefrekapp.com</p>
             </li>
           </ul>
           <p>
@@ -153,12 +153,12 @@ const Refundpolicy = () => {
           <h2>Gifts</h2>
           <p>
             If the Goods were marked as a gift when purchased and then shipped
-            directly to you, You'll receive a gift credit for the value of your
+            directly to you, You&apos;ll receive a gift credit for the value of your
             return. Once the returned product is received, a gift certificate
             will be mailed to You.
           </p>
           <p>
-            If the Goods weren't marked as a gift when purchased, or the gift
+            If the Goods weren&apos;t marked as a gift when purchased, or the gift
             giver had the Order shipped to themselves to give it to You later,
             We will send the refund to the gift giver.
           </p>
@@ -169,16 +169,14 @@ const Refundpolicy = () => {
           </p>
           <ul>
           <li>
-              By email: <a href="mailto:info@postbox.com">info@postbox.com</a>
+              By email: <a href="mailto:thefrekappllc.@gmail.com">thefrekappllc.@gmail.com</a>
             </li>
             <li>
-              <p>By phone number: 1234567890</p>
+              <p>By visiting this page on our web www.thefrekapp.com</p>
             </li>
           </ul>
         </div>
-        <div className="policy-data">
-          <img src={pandp} alt="Hero" />
-        </div>
+       
       </div>
       <Footer2 />
     </>

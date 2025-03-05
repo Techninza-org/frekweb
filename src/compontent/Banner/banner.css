@@ -1,211 +1,89 @@
-.banner {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: center;
-    background-color: #ebfaf3;
-    height: 25vh;
+/* General Styles */
+.banner, .banner1, .banner2, .banner3, .banner4 {
+  display: flex;
+  justify-content: center;
+  background-color: #ebfaf3;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.bimage, .bimage1, .bimage3, .bimage4 {
+  text-align: center;
+  padding: 20px;
+}
+
+.bimage img {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 5px;
+}
+
+.bimage p, .bimage1 p, .bimage3 p, .bimage4 p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.bimage3 h1, .bimage4 h1 {
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+.bimage3 p, .bimage4 p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  /* Tablet and smaller screens adjustments */
+  .banner, .banner1, .banner2, .banner3, .banner4 {
+    flex-direction: column; /* Stack elements vertically */
+    padding: 20px;
+    height: auto;
   }
-  
-  
-  .bimage {
-    text-align: center;
-    padding-top: 20px;
-  }
-  
+
   .bimage img {
-    width: 80px;
-    height: 80px;
-    padding-bottom: 5px;
-  }
-  
-  .bimage p {
-    margin-top: 2px;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-  
-  
-  .banner1 {
-    display: flex;
-    justify-content: center;
-    background-color: #ebfaf3;
-    height: 20vh;
-  }
-  
-  .bimage1 p {
-    margin-top: 50px;
-    font-size: 1.6rem;
-    font-weight: 600;
+    width: 120px; /* Make the image slightly bigger for tablets */
+    height: auto;
   }
 
-  .banner2 {
-   
-    display: flex;
-    background-color: #ebfaf3;
-    height: 25vh;
-  }
-  .banner3 {
-    display: flex;
-    background-color: #ebfaf3;
-    padding:5rem 0rem;
-    
-  }
-  .bimage3 h1 {
-    margin-top: 30px;
-    margin-left: 90px;
-    font-size: 3rem;
+  .bimage p, .bimage1 p, .bimage3 p, .bimage4 p {
+    font-size: 1.4rem; /* Slightly smaller text for better readability */
+    margin-top: 10px;
   }
 
-  .bimage3 p {
-    margin-left: 100px;
-    font-size: 1.5rem;
-  }
-  .banner4 {
-    /* margin-top: 4%; */
-    display: flex;
-    background-color: #ebfaf3;
-    padding:5rem 0rem;
-  }
-  .bimage4 h1 {
-    margin-top: 50px;
-    margin-left: 90px;
-    font-size: 3rem;
+  .bimage3 h1, .bimage4 h1 {
+    font-size: 2rem; /* Smaller heading for smaller screens */
   }
 
-  .bimage4 p {
-    margin-left: 100px;
-    font-size: 1.5rem;
+  .bimage3 p, .bimage4 p {
+    font-size: 1.2rem; /* Slightly smaller paragraph for smaller screens */
+  }
+}
+
+@media (max-width: 648px) {
+  /* Mobile View Adjustments */
+  .banner, .banner1, .banner2, .banner3, .banner4 {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
   }
 
-  
-  
-  
-  @media (max-width: 648px) {
-    
-    .banner {
-      flex-direction: column; 
-      height: auto; 
-      padding: 20px; 
-    }
-  
-    .bimage {
-      padding-top: 20px; 
-    }
-  
-    .bimage img {
-      width: 100px; 
-      height: auto; 
-    }
-  
-    .bimage p {
-      font-size: 1.4rem;
-      margin-top: 5px;
-    }
-  
-    
-    .banner1 {
-      flex-direction: column;
-      height: auto;
-      padding: 20px;
-    }
-  
-    .bimage1 p {
-      font-size: 1.4rem; 
-      margin-top: 20px; 
-    }
-    .banner2 {
-      flex-direction: column; 
-      height: auto;           
-      padding: 20px;          
-    }
-  
-    .bimage2 h1 {
-      margin-top: 10px;       
-      margin-left: 10px;      
-      font-size: 1.5rem;     
-      text-align: center;     
-    }
-  
-    .bimage2 p {
-      margin-top: 10px;       
-      margin-left: 10px;      
-      font-size: 1.2rem;      
-      text-align: center;     
-    }
-    .banner3 {
-     
-      display: flex;
-      background-color: #ebfaf3;
-      height: 20vh;
-      justify-content: center; 
-      align-items: center; 
-      padding: 20px;
-      flex-direction: column; 
+  .bimage img {
+    width: 100px; /* Make the image larger on small screens */
+    height: auto;
   }
-  
-  .bimage3 h1 {
-      margin-top: 30px;
-      margin-left: 90px;
-      font-size: 3rem; 
-      text-align: center; 
+
+  .bimage p, .bimage1 p, .bimage3 p, .bimage4 p {
+    font-size: 1.2rem; /* Reduce font size for smaller screens */
+    margin-top: 10px;
+    text-align: center;
   }
-  
-  .bimage3 p {
-      margin-left: 100px;
-      font-size: 1.5rem; 
-      text-align: center; 
+
+  .bimage3 h1, .bimage4 h1 {
+    font-size: 2rem; /* Adjust header size for mobile */
   }
-  
-  .banner4 {
-      /* margin-top: 15%; */
-      display: flex;
-      background-color: #ebfaf3;
-      height: 20vh;
-      justify-content: center; 
-      align-items: center; 
-      /* padding: 20px; */
-      flex-direction: column; 
+
+  .bimage3 p, .bimage4 p {
+    font-size: 1rem; /* Adjust paragraph size for mobile */
   }
-  .bimage4 h1 {
-      margin-top: 40px;
-      margin-left: 90px;
-      font-size: 3rem; 
-      text-align: center; 
-  }
-  
-  .bimage4 p {
-      margin-left: 100px;
-      font-size: 1.5rem; 
-      text-align: center; 
-  }
-  
-  
-      .banner3,
-      .banner4 {
-          /* height: auto;  */
-          flex-direction: column; 
-          padding: 10px; 
-      }
-  
-      .bimage3 h1,
-      .bimage3 p,
-      .bimage4 h1,
-      .bimage4 p {
-          margin-left: 0; 
-          text-align: center; 
-      }
-  
-      .bimage3 h1,
-      .bimage4 h1 {
-          font-size: 2rem; 
-          /* margin-top: 10px;  */
-      }
-  
-      .bimage3 p,
-      .bimage4 p {
-          font-size: 1.2rem; 
-          margin-top: 10px; 
-      }
-  }
-  
+}

@@ -1,22 +1,23 @@
-import React from "react";
+
 import "./hero.css";
-import login4 from "../../assets/login4.png";
+
+import b from "../../assets/Fpage2.svg";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-image">
-        <img src={login4} alt="Hero" />
+        <img src={b} alt="Hero" />
       </div>
       <div className="hero-text">
         <h1>
-          <a>The PostBox Travel App</a>
+          <a>Frek App </a>
         </h1>
         <p>
-          🌍✨✈! The PostBox Travel App, designed for traveller’s, Discover new
-          places, meet fellow travellers, and share your journey with PostBox –
-          the ultimate travel social media app! 📲 is launching soon. Stay tuned
-          for the ultimate travel experience!
+          ❤️💬💑! Frek App, designed for singles, connect with potential
+          matches, start meaningful conversations, and share your journey with
+          Frek – the ultimate dating app! 📲 is launching soon. Stay tuned for
+          an exciting new way to meet and date!
         </p>
       </div>
     </div>

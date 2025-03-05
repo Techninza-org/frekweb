@@ -1,7 +1,8 @@
 .hero {
     display: flex;
-    height: 100vh;
+    
     width: 100%;
+    
   }
 
   .hero-text {
@@ -13,7 +14,7 @@
     justify-content: center;
     align-items: left;
     text-align: left;
-    background-color: #fff;
+
   }
 
   .hero-text h1 {
@@ -31,13 +32,20 @@
   
   .hero-image {
     margin-top: 7%;
+    margin-bottom: 5%;
     width: 50%;
-    height: 90%;
+   
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  .hero-image img {
+    width: 40%;
+    height: auto;
+    padding: 0;
+  }
+  
   
   
   

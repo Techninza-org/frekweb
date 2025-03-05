@@ -1,0 +1,134 @@
+/* General container styling */
+.policy {
+    background-color: white;
+    margin: 0 auto; /* Center the container */
+    color: black;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    height: auto;
+    width: 90%;
+    padding: 20px; /* Add padding for inner spacing */
+    line-height: 1.8; /* Improve readability */
+}
+
+/* Policy data section */
+.policy-data {
+    flex: 1; /* Flexible sizing */
+    margin: 3rem 0; /* Add vertical spacing */
+    padding: 20px; /* Inner padding for better separation */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+/* Headings for terms sections */
+.policy-data h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px; /* Add spacing below the main heading */
+}
+
+.policy-data h2, .policy-data h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 30px; /* Add spacing above subheadings */
+    margin-bottom: 15px; /* Add spacing below subheadings */
+}
+
+/* Paragraphs within terms sections */
+.policy-data p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+    text-align: justify; /* Align text for a clean layout */
+}
+
+/* Sub-points list */
+.policy .sub-points {
+    margin-top: 10px;
+    padding-left: 40px; /* Indent the list for better hierarchy */
+    list-style-type: disc; /* Disc bullet points */
+}
+
+.policy .sub-points li {
+    font-size: 1.4rem;
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+/* Last point (optional) */
+.policy-data .last-point {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets */
+@media (max-width: 1024px) {
+    .policy-data h1 {
+        font-size: 2.5rem;
+    }
+
+    .policy-data h2, .policy-data h3 {
+        font-size: 2rem;
+    }
+
+    .policy-data p {
+        font-size: 1.3rem;
+    }
+
+    .policy .sub-points li {
+        font-size: 1.2rem;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .policy {
+        flex-direction: column; /* Stack items vertically */
+        padding: 15px;
+    }
+
+    .policy-data h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .policy-data h2, .policy-data h3 {
+        font-size: 1.8rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .policy-data p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .policy .sub-points {
+        padding-left: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .policy .sub-points li {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+}
+
+/* For extra small devices */
+@media (max-width: 480px) {
+    .policy-data h1 {
+        font-size: 1.8rem;
+    }
+
+    .policy-data h2, .policy-data h3 {
+        font-size: 1.6rem;
+    }
+
+    .policy-data p {
+        font-size: 1rem;
+    }
+
+    .policy .sub-points li {
+        font-size: 1rem;
+    }
+}

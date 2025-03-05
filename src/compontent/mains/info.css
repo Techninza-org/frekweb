@@ -1,6 +1,6 @@
 .content {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   height: auto; /* Allow dynamic height based on content */
   padding: 20px;
@@ -15,7 +15,6 @@
   align-items: flex-start;
   text-align: left;
   padding: 20px;
-  
 }
 
 .content-text h1 {
@@ -29,13 +28,12 @@
   color: #666;
 }
 
-
-
-
-
+.content-image,
 .content-image2,
-.content-image3,.content-image {
-  width: 50%; /* Use half width for large screens */
+.content-image3 {
+  width: 40%; /* Use half width for large screens */
+  
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,6 +1,6 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
-import postboxlogo from "../../assets/postboxlogo.jpeg";
+import postboxlogo from "../../assets/logo1.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -21,6 +21,13 @@ const Footer = () => {
           </li>
           <li>
             <Link to="/refundpolicy">Refund Policy</Link>
+           
+          </li>
+          <li>
+            <Link to="/termandservices">Terms of Service</Link>
+          </li>
+          <li>
+            <Link to="/childpolicy">Child Policy Safety</Link>
           </li>
           
         </ul>
@@ -28,7 +35,7 @@ const Footer = () => {
       <div className="footer-copyright">
         <ul>
           <li>© 2024 All Rights Reserved by</li>
-          <li>EZIO TRAVELS PRIVATE LIMITED</li>
+          <li>Frek App LLC</li>
         </ul>
       </div>
     </div>
